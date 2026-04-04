@@ -1,3 +1,8 @@
+py -3.12 -m pip install fastapi uvicorn
+
+
+
+
 from fastapi import FastAPI
 app = FastAPI()
 
@@ -25,7 +30,7 @@ def get_employee(id: int):
     return {"error": "Employee not found"}
 
 
-python -m uvicorn emp_api:app --reload --port 8000
+py -3.12 -m uvicorn cc:app --reload --port 8000
 http://localhost:8000/employees
 
 
@@ -47,3 +52,6 @@ class Program
         Console.WriteLine(content);
     }
 }
+
+
+run program.cs file
