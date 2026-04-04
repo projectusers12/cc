@@ -29,4 +29,6 @@ if __name__=="__main__":
 
 #/hello
 #/add/?a=10&b=20
+#py -3.12 run.py
+#python run.py
 
