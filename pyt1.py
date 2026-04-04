@@ -1,3 +1,9 @@
+py -3.12 -m pip install requests
+py -3.12 -m pip install requests
+
+
+
+
 from flask import Flask, jsonify, request
 
 app=Flask(__name__)
