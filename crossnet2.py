@@ -1,4 +1,4 @@
-
+asp.net core web application
 [HttpGet("c2f/{c}")]
 public string CelsiusToFahrenheit(double c)
 {
@@ -25,3 +25,4 @@ response = requests.get(url, verify=False)
 print(response.text)
 
 py -3.12 -m pip install requests
+Pip install command py -3.12 -m pip install requests
