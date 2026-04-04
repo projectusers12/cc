@@ -1,4 +1,4 @@
-asp.net core web application
+ASP .NET Core Web Application / App (MVC)
 
 [HttpGet("{name}")]
 public string GetHello(string name)
